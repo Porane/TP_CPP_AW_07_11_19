@@ -3,7 +3,7 @@
 class CPoint
 {
 
-private :
+private : //membres privés
 
 	float nX;
 	float nY;

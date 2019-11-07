@@ -4,16 +4,20 @@
 #include "CPoint.h"
 
 using namespace std;
-//déclarant un point, l'affichant, le déplacant et l'affichant à nouveau
+
 int main()
 {
+	//déclaration d'un point
 	CPoint ptMonPoint(5.2, 3.4);
 
-	std::cout << "X : " << ptMonPoint.AfficheX() << std::endl;
+	//affichage
+	std::cout << "X : " << ptMonPoint.AfficheX() << std::endl; 
 	std::cout << "Y : " << ptMonPoint.AfficheY() << std::endl;
 
+	//déplacement du point
 	ptMonPoint.Deplace(2, 3);
 
+	//affichage
 	std::cout << "X : " << ptMonPoint.AfficheX() << std::endl;
 	std::cout << "Y : " << ptMonPoint.AfficheY() << std::endl;
 
