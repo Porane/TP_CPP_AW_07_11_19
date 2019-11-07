@@ -22,6 +22,11 @@ int main()
 	std::cout << "X : " << ptMonPoint.abscisse() << std::endl;
 	std::cout << "Y : " << ptMonPoint.ordonnee() << std::endl;
 
+	ptMonPoint.homothetie(5);
+
+	std::cout << "X : " << ptMonPoint.abscisse() << std::endl;
+	std::cout << "Y : " << ptMonPoint.ordonnee() << std::endl;
+
 	system("pause");
 
 	return 0;

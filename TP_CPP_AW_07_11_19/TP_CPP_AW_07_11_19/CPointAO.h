@@ -20,4 +20,12 @@ public:
 	float abscisse();
 	float ordonnee();
 
+	void homothetie(float h);
+
+	void rotation(float r);
+
+	//float rho();
+
+	//float theta();
+
 };

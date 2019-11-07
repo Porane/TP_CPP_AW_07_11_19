@@ -25,3 +25,14 @@ float CPointAO::ordonnee()
 {
 	return nY;
 }
+
+void CPointAO::homothetie(float h)
+{
+	this->nX = (h)*this->nX;
+	this->nY = (h)*this->nY;
+}
+
+void CPointAO::rotation(float r)
+{
+
+}
